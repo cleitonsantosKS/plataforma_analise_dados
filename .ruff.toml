@@ -1,0 +1,12 @@
+# Ruff configuration for Platforma Analise Dados
+
+extend-exclude = [
+    ".agents",
+    ".venv",
+    ".temp_ag_kit",
+    "movimentacao_detalhada_28_05_14h"
+]
+
+[lint]
+select = ["E", "F", "W"]
+ignore = ["E402", "E501", "W293", "W291", "F541"]

@@ -1,0 +1,25 @@
+================================================================================
+  PACOTE POWER BI — PLATAFORMA DE ANÁLISE DE DADOS
+================================================================================
+
+1. Abra o Microsoft Power BI Desktop.
+
+2. Clique em "Obter Dados" > "Texto/CSV" ou "Excel".
+
+3. Selecione o arquivo "dados_limpos_*.csv" ou "dados_limpos_*.xlsx" deste pacote.
+   - Separador CSV: ponto e vírgula (;)
+   - Codificação: UTF-8
+
+4. No Editor de Consultas, ajuste os tipos de coluna conforme o arquivo
+   "powerbi_modelo.json" (datetime, numérico, texto).
+
+5. Crie visuais sugeridos:
+   - Linha: colunas de data + métricas numéricas
+   - Barras: categorias (ex.: Operador, Destino, Caminhão) + soma/contagem
+   - Pizza: categorias com poucas opções (ex.: Status, Tipo de Ciclo)
+
+6. Template .pbit:
+   - Coloque seu arquivo modelo_relatorio.pbit em assets/powerbi/
+   - Na próxima exportação, ele será incluído automaticamente no ZIP.
+
+================================================================================

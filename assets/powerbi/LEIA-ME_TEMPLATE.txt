@@ -1,0 +1,15 @@
+TEMPLATE POWER BI (.pbit)
+=========================
+
+Para usar um template pré-configurado:
+
+1. Crie o relatório no Power BI Desktop com os visuais desejados.
+2. Salve como "Modelo do Power BI" (.pbit) com o nome:
+   modelo_relatorio.pbit
+3. Copie o arquivo para esta pasta:
+   plataforma_analise_dados/assets/powerbi/modelo_relatorio.pbit
+
+O pacote ZIP gerado pela plataforma incluirá automaticamente esse template
+quando o arquivo existir nesta pasta.
+
+Nota: arquivos .pbit são binários e devem ser criados no Power BI Desktop.
