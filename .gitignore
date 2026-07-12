@@ -1,9 +1,46 @@
+# Ambientes Virtuais e Caches
 venv/
 .venv/
+env/
 __pycache__/
 *.pyc
-.DS_Store
-.idea/
-.vscode/
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.eslintcache
+
+# Bancos de Dados Locais e Arquivos Temporários
+*.db
+*.sqlite
+*.sqlite3
 *.log
-db.sqlite3
+uploads/temp/
+tmp/
+
+# Configurações Locais e Segredos
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.pub
+config_local.json
+setup_projects.py
+
+# IDEs e Editores de Código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Dependências de Pacotes (Node/etc)
+node_modules/
+dist/
+build/
+.next/
+out/
